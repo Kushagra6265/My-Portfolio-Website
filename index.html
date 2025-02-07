@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/Profile image2.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Kushagra's Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header Design -->
+     <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact" >Contact</a>
+        </nav>
+
+     </header>
+        <!-- Home Section -->
+         <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hello, Myself</h3>
+                <h1>Kushagra Goswami</h1>
+                <h3>And I am a <span>Software Developer</span></h3>
+                <p>Crafting seamless user experiences with a perfect blend of design and functionality.
+                Passionate about building scalable solutions that drive innovation</p>
+                <div class="social-media">
+                    <a href="https://www.linkedin.com/in/kushagra-goswami-3a9698264/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Kushagra6265" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/home?lang=en" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                   
+                </div>
+                <a href="Kushagra_Goswami_ResumeNew.pdf" class="btn" download="Kushagra_Goswami_Resume">Download CV</a>
+
+
+            </div>
+
+            <div class="home-img">
+                <img src="img/Profile image2.png" alt="">
+            </div>
+         </section>
+
+        <!-- About Section Design -->
+        
+         <section class="about" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="img/aboutpic2.png" alt="" class="about-col-1-img" >
+
+                    </div>
+                    <div class="about-col-2 ">
+                        <h1 class="sub-title">About Me</h1>
+                        <p class="sub-para">I am a versatile developer with expertise in C, C++, Python, and Object-Oriented Programming. Proficient in
+                            front-end technologies like HTML, CSS, JavaScript, and React.js,I specialize in creating responsive interfaces.
+                            With knowledge of SQL for database management and advanced Microsoft Excel for data analysis,I aim to
+                            leverage my technical skills and problem-solving abilities to drive impactful solutions for your organization.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onClick="opentab('skills')">Skills</p>
+                            <p class="tab-links " onClick="opentab('education')">Education</p>
+                        
+                            
+                        </div>
+
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Frontend Development :</span><br>HTML,CSS,JS</li>
+                                <li><span>Frontend Framework and Libraries :</span><br>Bootstrap,Tailwind CSS,ReatJS</li>
+                                <li><span>Backend Development :</span><br>Nodejs,ExpressJs</li>
+                                <li><span>Languages :</span><br>C,C++,Python</li>
+                                <li><span>Data Analysis :</span><br>SQL,Microsoft Excel</li>                                                          
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>B.Tech. Electrical and Computer Engineering</span><br>MIT-WPU | CGPA:8.91
+                                    </li>
+                                <li><span>XII (CBSE)</span><br>Little Kingdom School | 91%</li>
+                                <li><span>X (CBSE)</span><br>St. Gabriel's Sr. Sec. School | 94.2%</li>
+                                
+                                
+                            </ul>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Services Section Design-->
+        <section class="services" id="services">
+            <h2 class="heading services-heading">My <span>Services</span></h2>
+            <div class="services-container">
+                <div class="services-box">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Frontend Development</h3>
+                    <p>Frontend Development involves crafting responsive web experiences using HTML, CSS, and JavaScript. I utilize frameworks like React and Bootstrap to create dynamic applications, ensuring optimal performance and cross-browser compatibility while collaborating effectively with teams to deliver user-focused solutions.</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+
+                <div class="services-box">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Backend Development</h3>
+                    <p>As a Backend Developer, I excel in creating robust server-side logic and managing databases using technologies like Node.js and SQL. I prioritize data security and performance optimization, ensuring seamless communication between frontend and backend components to deliver scalable and efficient applications.
+
+                </p>
+                  
+                    <a href="#" class="btn">Read more</a>
+                </div>
+
+                <div class="services-box">
+                    <i class="fa-brands fa-python"></i>
+                    <h3>Python Development</h3>
+                    <p>Python Development emphasizes building robust applications using Python's versatility. I leverage frameworks like Flask for web development, focusing on clean code and efficient algorithms. My expertise includes data analysis and automation, enabling me to deliver scalable solutions that meet diverse business needs.</p>
+                   
+                    
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            </div>
+
+        </section>
+
+         <!--Portfolio Section Design-->
+        
+         <section class="portfolio" id="portfolio">
+            <h2 class="heading portfolio-heading">Latest <span>Projects</span></h2>
+<div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="/img/1.png" alt="" >
+                <div class="portfolio-layer">
+                    <h4>Shopper</h4>
+                    <p>A e-commerce website built using React.js, featuring a clean UI and functionality to browse and manage products.</p>
+                    <a href="https://github.com/Kushagra6265/Shopper" target="_blank">
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                    
+                </div>
+            </div>
+   
+
+            <div class="portfolio-box">
+                <img src="/img/2.png" alt="" >
+                <div class="portfolio-layer">
+                    <h4>Jarvis Routing System</h4>
+                    <p>The Jarvis Routing System is an advanced Dynamic Route Optimization System designed to address key challenges in logistics and transportation.</p>
+                    <a href="https://github.com/Kushagra7987/Jarvis-Routing-System" target="_blank">
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="/img/3.png" alt="" >
+                <div class="portfolio-layer">
+                    <h4>Twitter Clone</h4>
+                    <p>This is a front-end design replica of Twitter's homepage, built using Tailwind CSS.</p>
+                    <a href="https://github.com/Kushagra6265/Twitter-Clone" target="_blank">
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="/img/4.png" alt="" >
+                <div class="portfolio-layer">
+                    <h4>Netflix Clone</h4>
+                    <p>A simple front-end clone of the Netflix homepage, built using HTML and CSS.</p>
+                    <a href="https://github.com/Kushagra6265/Netflix-Clone" target="_blank">
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="/img/5.png" alt="" >
+                <div class="portfolio-layer">
+                    <h4>Coffee Shop Sale Analysis</h4>
+                    <p>The project is implemented using Microsoft Excel, with an interactive dashboard containing visualizations and charts.</p>
+                    <a href="https://github.com/Kushagra6265/Coffee-Shop-Sales-Analysis" target="_blank">
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="/img/6.png" alt="" >
+                <div class="portfolio-layer">
+                    <h4>Spotify Clone</h4>
+                    <p>A front-end clone of Spotify homepage.</p>
+                    <a href="https://github.com/Kushagra6265/Coffee-Shop-Sales-Analysis" target="_blank">
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+         </section>
+
+        <!--Contact Section Design-->
+        <section class="contact" id="contact">
+            <h2 class="heading contact-heading">Contact <span>Me</span></h2>
+            <form action="#" name="submit-to-google-sheet">
+                <div class="input-box">
+                    <input type="text" name="Name" placeholder="Enter Your Name" >
+                    <input type="email" name="Email" placeholder="Enter Your Email Address" >
+
+                </div>
+                <div class="input-box">
+                    <input type="number" name="Number" placeholder="Enter your Mobile Number">
+                    <input type="text" name="Subject" placeholder="Email Subject">
+
+                </div>
+                <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+              
+            </form>
+            
+            <span id="msg"></span>
+               
+
+        </section>
+        
+           <!--Contact Section Design-->
+
+           <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy; 2025 by @Kushagra | All Rights Reserved</p>
+            </div>
+
+            <div class="footer-iconTop">
+                <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+            </div>
+           </footer>
+
+    <script src="main.js"></script>
+  
+</body>
+</html>
