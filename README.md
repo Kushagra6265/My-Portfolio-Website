@@ -30,7 +30,10 @@ Welcome to my personal portfolio website! This site showcases my skills, project
 
 ## Technologies Used
 
-- **HTML5**  
-- **CSS3**  
-- **JavaScript**  
+- **HTML5** – For structuring the content of the website.
+- **CSS3** – For styling and layout, including animations and responsive design.
+- **JavaScript (ES6)** – For adding interactivity and handling dynamic content.
+- **Responsive Web Design** – Ensuring the website looks good on all devices.
+- **Contact Form with Google Sheets Backend** – Captures and stores form data directly in Google Sheets.
+
 
