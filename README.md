@@ -36,4 +36,26 @@ Welcome to my personal portfolio website! This site showcases my skills, project
 - **Responsive Web Design** – Ensuring the website looks good on all devices.
 - **Contact Form with Google Sheets Backend** – Captures and stores form data directly in Google Sheets.
 
+## How to Use
+
+1. **Clone the Repository:**  
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git
+   ```
+
+2. **Navigate to the Project Directory:**  
+   ```bash
+   cd your-repo-name
+   ```
+
+3. **Open the Website Locally:**  
+   Open the `index.html` file in your preferred browser.
+
+Thank you for visiting my portfolio website! If you have any feedback or suggestions, feel free to reach out through the contact form.
+
+---
+
+**Note:** Replace `yourusername` and `your-repo-name` with your actual GitHub username and repository name.
+
+
 
