@@ -1,41 +1,81 @@
-Portfolio Website
+# Portfolio Website
 
 Welcome to my personal portfolio website! This site showcases my skills, projects, and services, providing an easy way to connect with me.
 
-Features
+## Features
 
-Landing Page:
+### Landing Page
+- A clean homepage with a **navbar** linking to **Home**, **About**, **Services**, **Portfolio**, and **Contact** sections.
+- Social media icons with links to my **GitHub**, **Twitter**, **LinkedIn**, and **Facebook** profiles.
+- A **Download CV** button that downloads my resume directly.
 
-A clean homepage with a navbar linking to Home, About, Services, Portfolio, and Contact sections.
+### Smooth Scrolling Navigation
+- Clicking on any navbar item smoothly scrolls to the respective section.
 
-Social media icons with links to my GitHub, Twitter, LinkedIn, and Facebook profiles.
+### About Section
+- Details about my **skills** and **education**.
 
-A Download CV button that downloads my resume directly.
+### Services Section
+- A list of all the **services** I offer.
 
-Smooth Scrolling Navigation:
+### Portfolio Section
+- Showcases my **projects** with links that direct to their respective **GitHub repositories**.
 
-Clicking on any navbar item smoothly scrolls to the respective section.
+### Contact Section
+- A **contact form** where visitors can fill in their details and send me a message.
+- On submission, the form data is sent to a **Google Sheet** using JavaScript, and a "**Sent Successfully**" message is displayed.
 
-About Section:
+### Footer
+- A simple **footer** for the website.
 
-Details about my skills and education.
+## Technologies Used
 
-Services Section:
+- **HTML5**  
+- **CSS3**  
+- **JavaScript**  
 
-A list of all the services I offer.
+## How to Use
 
-Portfolio Section:
+1. **Clone the Repository:**  
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git
+   ```
 
-Showcases my projects with links that direct to their respective GitHub repositories.
+2. **Navigate to the Project Directory:**  
+   ```bash
+   cd your-repo-name
+   ```
 
-Contact Section:
+3. **Open the Website Locally:**  
+   Open the `index.html` file in your preferred browser.
 
-A contact form where visitors can fill in their details and send me a message.
+## Deployment
 
-On submission, the form data is sent to a Google Sheet using JavaScript, and a "Sent Successfully" message is displayed.
+The website can be deployed using **GitHub Pages**:
 
-Footer:
+1. Push your changes to the `main` branch.
+2. Go to **Settings** > **Pages**.
+3. Under **Source**, select `main` branch and `/root` directory.
+4. Click **Save**. Your website will be live at:
+   ```
+   https://yourusername.github.io/your-repo-name/
+   ```
 
-A simple footer for the website.
+## Contact
 
-Technologies Used
+Feel free to connect with me via:
+
+- [GitHub](https://github.com/yourusername)
+- [Twitter](https://twitter.com/yourusername)
+- [LinkedIn](https://linkedin.com/in/yourusername)
+- [Facebook](https://facebook.com/yourusername)
+
+---
+
+Thank you for visiting my portfolio website! If you have any feedback or suggestions, feel free to reach out through the contact form.
+
+---
+
+**Note:** Replace `yourusername` and `your-repo-name` with your actual GitHub username and repository name.
+
+
